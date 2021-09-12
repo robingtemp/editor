@@ -9,6 +9,7 @@
     "deploy": "npm run build && rsync -av --delete dist/ rogr19@ssh.student.bth.se:www/editor"
   },
   "dependencies": {
+    "axios": "^0.21.4",
     "core-js": "^3.6.5",
     "iview": "^3.5.4",
     "vue": "^2.6.11",
