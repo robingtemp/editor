@@ -61,7 +61,7 @@ export default {
             .catch((err) => this.message = err)
         },
         loadPost(id) {
-            this.currentID = id
+            this.currentID = id 
             axios
             .get('http://localhost:1337/get/' + id)
             .then(response => this.content = response.data.text)
